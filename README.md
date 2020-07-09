@@ -1,6 +1,6 @@
-ApiGit - projeto básico usando a api do Git
+# ApiGit - projeto básico usando a api do Git
 
-# ateliware
+### ateliware
 
 ## Project setup
 ```
