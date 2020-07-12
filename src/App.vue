@@ -8,10 +8,10 @@
         <div class="row">
           <div class="col-2"/>
           <div class="col-4">
-            <button class="btn btn-danger col-11" v-on:click="busca=true;repositorios=[]"> Nova busca  </button>
+            <button id="btnBusca" class="btn btn-danger col-11" v-on:click="busca=true;repositorios=[]"> Nova busca  </button>
           </div>
           <div class="col-4">
-            <button class="btn btn-danger col-11" v-on:click="busca=false;repositorios=[]"> Histórico de buscas  </button>
+            <button id="btnHistorico" class="btn btn-danger col-11" v-on:click="busca=false;repositorios=[]"> Histórico de buscas  </button>
           </div>
           <div class="col-2"/>
         </div>

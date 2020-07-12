@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="templateBusca">
     <div class="row form-group">
       <label for="linguagem" class="col-3 col-form-label">Linguagem: </label>
       <input type="text" class="form-control col-5" id="linguagem" aria-describedby="linguagem" placeholder="Digite a linguagem de programação desejada" v-model="linguagem"/>
@@ -39,6 +39,8 @@
 <script>
 import Swal from 'sweetalert2'
 import resultado from './resultado.vue'
+import '../plugins/axios'
+
 export default {
     name: 'Busca',
     components: {
@@ -133,8 +135,7 @@ export default {
           numero: this.numero,
           repositorios:this.repositorios
         })
-        .then(response => {
-          console.log(response)
+        .then( () =>{
           Swal.fire({
             title: 'Sucesso',
             text: 'Busca salva ',
