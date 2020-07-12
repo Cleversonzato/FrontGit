@@ -1,4 +1,6 @@
-# ateliware
+# ApiGit - projeto básico usando a api do Git
+
+### ateliware
 
 ## Project setup
 ```
@@ -22,4 +24,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-# ApiGit - projeto básico usando a api do Git
+
