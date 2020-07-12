@@ -61,7 +61,7 @@
     },
     methods: {
       buscarHistorico(){
-        this.axios.get('http://localhost:9000/buscas')
+        this.axios.get('https://ateliwareback.herokuapp.com/buscas')
         .then(response => {
             this.buscas = response.data
          })
@@ -76,7 +76,7 @@
       },
       selecionar(id){
         this.idSelecionado = id
-        this.axios.get('http://localhost:9000/buscar/'+id)
+        this.axios.get('https://ateliwareback.herokuapp.com/buscar/'+id)
           .then(response => {
             console.log(response)
             this.repositorios = response.data

@@ -130,7 +130,7 @@ export default {
         }
       },
       salvar () {
-        this.axios.post('http://localhost:9000/salvar', {
+        this.axios.post('https://ateliwareback.herokuapp.com/salvar', {
           linguagem: this.linguagem,
           numero: this.numero,
           repositorios:this.repositorios
